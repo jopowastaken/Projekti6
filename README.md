@@ -1,2 +1,2 @@
 # Projekti6
-Projektiryhmä 6 testi repository
+Projektiryhmä 6 repository
