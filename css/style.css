@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.container{
+    margin: auto;
+    width: 92%;
+    max-width: 1200px;
+    overflow: hidden;
+}
+h1, h2, h3 {
+  color: #3b6fd9;
+}
+body {
+  background-color: #FFF;
+  color: #333;
+}
+
+.container.text{
+    max-width: 600px;
+    text-align: center;
+}
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+  }
+
+  a {
+    color: #27538c;
+  }
+  a:hover {
+    color: #3B6FD9;
+  }
+  .featured-section {
+    background-color: #242259;
+    color: #fff;
+  }
+  .button {
+    background-color: #3B6FD9;
+    color: #fff;
+  }
+
+  .header_image{
+      display: block;
+      width: 100%;
+      padding: 191px 0 120px 0;
+      background-image: url(../images/taustakuva.jpg);
+      background-size: cover;
+      margin-bottom: 50px;
+  }
+  .header_image.alasivu{
+    padding: 141px 0 100px 0;
+}
+  .header_image .container{
+      max-width: 900px;
+  }
+  .header_image.alasivu .container{
+    width: 100%;
+    text-align: center;
+}
+  .header_img_text{
+      font-size: 60px;
+      max-width: 600px;
+      margin-bottom: 25px;
+      font-weight: 700;
+      color: #FFF;
+  }
+  .alasivu .header_img_text{
+      max-width: none;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 0;
+  }
+  .header_img_text-2{
+      font-size: 25px;
+      max-width: 600px;
+      font-weight: 400;
+      color: #FFF;
+      margin-bottom: 25px;
+  }
+  footer {
+    background-color: #27538C;
+    color: #fff;
+  }
+
+ 
+    ul#services li{
+       list-style: none;
+       padding: 20px;
+       border: #cccccc solid 1px;
+       margin-bottom: 5px;
+       background: #e6e6e6;
+     }
+  
+  @media screen and (max-width: 48em) {
+    .header_image{
+      text-align: center;
+    }
+    .header_img_text{
+      margin: 0 auto 25px auto;
+      font-size: 40px;
+      width: 92%;
+      max-width: none;
+    }
+    .header_img_text-2{
+      margin: auto;
+      margin-bottom: 25px;
+      width: 92%;
+      max-width: none;
+    }
+    .header_image{
+      padding: 141px 0 100px 0;
+    }
+  }
+
+
+ 
