@@ -1,121 +1,202 @@
-*{
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
-h1{
+
+h1 {
   text-align: center;
   margin-bottom: 25px;
 }
-.container{
-    margin: auto;
-    width: 92%;
-    max-width: 1200px;
-    overflow: hidden;
+
+.container {
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  width: 92%;
+  max-width: 1200px;
+  overflow: hidden;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
   color: #3b6fd9;
 }
+
 body {
   background-color: #FFF;
   color: #333;
 }
 
-.container.text{
-    max-width: 600px;
-    text-align: center;
+.container.text {
+  max-width: 600px;
+  text-align: center;
 }
+
 body {
-    margin: 0;
-    font-family: Helvetica, sans-serif;
-  }
-
-  a {
-    color: #27538c;
-  }
-  a:hover {
-    color: #3B6FD9;
-  }
-  .featured-section {
-    background-color: #242259;
-    color: #fff;
-  }
-  .button {
-    background-color: #3B6FD9;
-    color: #fff;
-  }
-
-  .header_image{
-      display: block;
-      width: 100%;
-      padding: 191px 0 120px 0;
-      background-image: url(../images/taustakuva.jpg);
-      background-size: cover;
-      margin-bottom: 50px;
-  }
-  .header_image.alasivu{
-    padding: 141px 0 100px 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
 }
-  .header_image .container{
-      max-width: 900px;
-  }
-  .header_image.alasivu .container{
-    width: 100%;
+
+a {
+  color: #27538c;
+}
+
+a:hover {
+  color: #3B6FD9;
+}
+
+.featured-section {
+  background-color: #242259;
+  color: #fff;
+}
+
+.button {
+  background-color: #3B6FD9;
+  color: #fff;
+}
+
+.header_image {
+  display: block;
+  width: 100%;
+  padding: 191px 0 120px 0;
+  background-image: url(../images/taustakuva.jpg);
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.header_image.alasivu {
+  padding: 141px 0 100px 0;
+}
+
+.header_image .container {
+  max-width: 900px;
+}
+
+.header_image.alasivu .container {
+  width: 100%;
+  text-align: center;
+}
+
+.header_img_text {
+  font-size: 60px;
+  max-width: 600px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #FFF;
+}
+
+.alasivu .header_img_text {
+  max-width: none;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.header_img_text-2 {
+  font-size: 25px;
+  max-width: 600px;
+  font-weight: 400;
+  color: #FFF;
+  margin-bottom: 25px;
+}
+
+footer {
+  background-color: #27538C;
+  color: #fff;
+}
+
+ul#services {
+  padding: 0;
+}
+
+
+ul#services li {
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  margin-left: unset;
+  background: #e6e6e6;
+}
+
+@media screen and (max-width: 48em) {
+  .header_image {
     text-align: center;
+  }
+
+  .header_img_text {
+    margin: 0 auto 25px auto;
+    font-size: 40px;
+    width: 92%;
+    max-width: none;
+  }
+
+  .header_img_text-2 {
+    margin: auto;
+    margin-bottom: 25px;
+    width: 92%;
+    max-width: none;
+  }
+
+  .header_image {
+    padding: 141px 0 100px 0;
+  }
 }
-  .header_img_text{
-      font-size: 60px;
-      max-width: 600px;
-      margin-bottom: 25px;
-      font-weight: 700;
-      color: #FFF;
-  }
-  .alasivu .header_img_text{
-      max-width: none;
-      width: 100%;
-      text-align: center;
-      margin-bottom: 0;
-  }
-  .header_img_text-2{
-      font-size: 25px;
-      max-width: 600px;
-      font-weight: 400;
-      color: #FFF;
-      margin-bottom: 25px;
-  }
-  footer {
-    background-color: #27538C;
-    color: #fff;
-  }
 
- 
-    ul#services li{
-       list-style: none;
-       padding: 20px;
-       border: #cccccc solid 1px;
-       margin-bottom: 5px;
-       background: #e6e6e6;
-     }
-  
-  @media screen and (max-width: 48em) {
-    .header_image{
-      text-align: center;
-    }
-    .header_img_text{
-      margin: 0 auto 25px auto;
-      font-size: 40px;
-      width: 92%;
-      max-width: none;
-    }
-    .header_img_text-2{
-      margin: auto;
-      margin-bottom: 25px;
-      width: 92%;
-      max-width: none;
-    }
-    .header_image{
-      padding: 141px 0 100px 0;
-    }
-  }
+.page-title {
+  margin-bottom: 25px;
+}
 
+.review-box {
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
- 
+.review-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.review-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-box input,
+.review-box textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.review-box button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.review-box button:hover {
+  background-color: #0056b3;
+}
