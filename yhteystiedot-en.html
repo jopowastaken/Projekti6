@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="">
+<meta charset="UTF-8">
+
+<head>
+  <title>Host Harbour | Yhteystiedot</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+    <div class="container">
+      <a href="index.html" class="logo"><img height="45px" width="auto" src="images/Untitled.svg" /></a>
+
+      <ul class="menu">
+        <li><a href="index.html">Front Page</a></li>
+        <li><a href="tuotteet-ja-palvelut.html">Products and Services</a></li>
+        <li><a href="yhteystiedot.html">Contact Information</a></li>
+      </ul>
+      <a class="kielinav" href="yhteystiedot.html">FI</a>
+
+    </div>
+  </header>
+  <div class="header_image alasivu">
+    <div class="container">
+      <h1 class="header_img_text">Contact Information</p>
+    </div>
+  </div>
+
+  <section id="main">
+    <div class="container">
+      <article id="main-col">
+        <h2 class="page-title"> Contact Information </h1>
+          <ul id="services">
+            <li>
+              <h3>Jere Hatakka</h3>
+              <p> Product development manager</p>
+              <p>044 123 1234 </p>
+              <p> jere@hostharbour.com </p>
+            </li>
+
+            <li>
+              <h3>Viktor Vuorio</h3>
+              <p> Director of Marketing </p>
+              <p> 045 123 1234 </p>
+              <p> viktor@hostharbour.com </p>
+            </li>
+
+            <li>
+              <h3>Petja Järvinen</h3>
+              <p> Financial manager </p>
+              <p> 044 123 1234 </p>
+              <p> petja@hostharbour.com </p>
+            </li>
+
+            <li>
+              <h3>Severi Kotonen</h3>
+              <p> Production manager </p>
+              <p> 050 123 1234 </p>
+              <p> severi@hostharbour.com </p>
+            </li>
+
+            <li>
+              <h3>Aukusti Paalassalo</h3>
+              <p> Communications Manager </p>
+              <p> 040 123 1234 </p>
+              <p> aukusti@hostharbour.com </p>
+            </li>
+            <li>
+              <h3> Jussi Oksaoja</h3>
+              <p> Customer Representative</p>
+              <p> 040 123 1234</p>
+              <p> jussi@hostharbour.com</p>
+            </li>
+          </ul>
+
+      </article>
+
+
+
+    </div>
+  </section>
+
+  <div class="review-box">
+    <h2>Send us Feedback!</h2>
+    <form id="reviewForm">
+      <input type="text" id="name" name="name" placeholder="Nimi" required>
+      <input type="email" id="email" name="email" placeholder="Sähköposti" required>
+      <textarea id="review" name="review" rows="4" placeholder="Palautteesi" required></textarea>
+      <button type="submit">Lähetä</button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("reviewForm").addEventListener("submit", function (event) {
+      event.preventDefault();
+      alert("Kiitos palautteesta!");
+    });
+  </script>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.querySelector('.menu');
+      menu.classList.toggle('active');
+    }
+  </script>
+
+</body>
+
+</html>
